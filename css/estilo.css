@@ -1,0 +1,123 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #3d94ce;
+    color: #fff;
+    padding: 35px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+header .menu {
+    display: none;
+    position: absolute;
+    padding: 2vh;
+    background-color: #3d94ce;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  header .menu a {
+    display: block;
+    padding: 2vh;
+    text-decoration: none;
+    text-align: left;
+    font-weight: bold;
+    color: #fff;
+    font-size: 1vw;
+  }
+
+  header .menu a:hover {
+    background-color: #fff;
+    color: #3d94ce;
+  }
+
+  header .imageMenu {
+    cursor: pointer;
+  }
+
+  header .logo {
+    display: inline-block;
+    max-width: 8vw;
+    vertical-align: middle;
+    border-radius: 50px;
+  }
+
+  header .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 2.5vw; 
+    height: auto; 
+    filter: invert(100%);
+  }
+
+  header .left-icon {
+    top: 60px;
+    left: 20px;
+  }
+
+  header .right-icon {
+    top: 60px;
+    right: 20px;
+  }
+
+/* Estilos do conteúdo principal */
+main {
+    margin: 8% auto;
+    flex: 1;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #3d94ce;;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 2vw;
+  }
+
+  footer a:hover {
+    text-decoration: underline;
+  }
+
+  footer p {
+    font-size: 1vw;
+    margin: 1vw;
+  }
+
+  footer img{
+    width: 2.5vw;
+  }
+
+  footer .linksRodape{
+    margin: 10px 0;
+  }
