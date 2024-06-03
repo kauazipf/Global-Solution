@@ -82,11 +82,69 @@ main {
     margin: 8% auto;
     flex: 1;
     padding: 20px;
+    width: 90%;
 }
 
 section {
     margin-bottom: 40px;
 }
+
+form {
+    width: 60%;
+    margin: 0 auto;
+    padding: 2vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+  form label{
+    font-weight: bold;
+    font-size: 1.5vw;
+  }
+
+  input[type="text"], input[type="email"],
+  input[type="password"], input[type="confPassword"] {
+    width: calc(97% - 10px);
+    margin-bottom: 0.5vw;
+    padding: 1vw;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    padding: 1vw;
+    border: none;
+    border-radius: 3px;
+    background-color: #3d94ce;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+
+  .login-text{
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .login-text a {
+    color: #3d94ce;
+  }
+
+  .login-text a:hover {
+    color: #0056b3;
+  }
+
+  .campoObrigatorio {
+    margin: 0 0 20px 0;
+    font-size: 1vw;
+    color: red;
+  }
 
 /* Estilos do rodapé */
 footer {
@@ -94,9 +152,9 @@ footer {
     color: #fff;
     padding: 5px;
     text-align: center;
-    position: fixed;
+    position: relative;
     bottom: 0;
-    width: 100%;
+    width: 99.3%;
 }
 
 footer a {
