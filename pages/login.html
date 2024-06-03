@@ -13,7 +13,7 @@
 
         <h1>Oceanic</h1>
 
-        <a href="#"><img src="./../images/login.png" alt="Ícone Login" class="icon right-icon"> </a>
+        <a href="./pages/login.html"><img src="./../images/login.png" alt="Ícone Login" class="icon right-icon"> </a>
         
         <div class="menu" id="menu">
             <a href="./../index.html">Home</a>
@@ -25,7 +25,18 @@
     </header>
 
     <main>
+        <form id="loginForm" action="./../index.html" method="post">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="login" required>
+            <h4 class="campoObrigatorio"> Campo Obrigatório! </h4>
 
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            <h4 class="campoObrigatorio"> Campo Obrigatório! </h4>
+            
+            <input type="submit" value="Entrar">
+            <p class="login-text">Não tem uma conta? <a href="./cadastrar.html">Cadastre-se aqui</a>.</p>
+        </form>
     </main>
     
     <footer>
