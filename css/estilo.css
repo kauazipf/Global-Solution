@@ -68,12 +68,12 @@ header .menu {
   }
 
   header .left-icon {
-    top: 60px;
+    top: 7vh;
     left: 20px;
   }
 
   header .right-icon {
-    top: 60px;
+    top: 7vh;
     right: 20px;
   }
 
@@ -91,7 +91,7 @@ section {
 
 form {
     width: 60%;
-    margin: 0 auto;
+    margin: 5% auto;
     padding: 2vw;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -173,6 +173,59 @@ form {
     .container-mudancas a {
         font-size: 1.2vw;
         margin: 2% auto;
+    }
+
+    .container-artigos {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    .container-artigos h1{
+        text-align: center;
+    }
+
+    .article {
+        margin-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+    }
+
+    .article h2 {
+        margin-top: 0;
+    }
+
+    .article p {
+        margin-bottom: 10px;
+    }
+
+    #form-artigos {
+        margin-bottom: 20px;
+    }
+
+    #form-artigos  textarea,
+    #form-artigos  input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        resize: vertical;
+    }
+
+    #form-artigos  button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #form-artigos button:hover {
+        background-color: #0056b3;
     }
     
   .container-Participantes {

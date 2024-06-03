@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./../css/estilo.css">
     <script src="./../javascript/script.js"></script>
-    <title>Login</title>
+    <title>Artigos</title>
 </head>
 <body>
     <header>
@@ -17,27 +17,27 @@
         
         <div class="menu" id="menu">
             <a href="./../index.html">Home</a>
-            <a href="./mudancas-climaticas">Mudanças Climáticas</a>
-            <a href="./pesca-insustentavel.html">Pesca Insustentavél</a>
-            <a href="./poluicao-maritima.html">Poluição Maritima</a>
-            <a href="./artigos.html"> Publicar Artigos</a>
-            <a href="./participantes.html ">Participantes</a>
+            <a href="./../pages/mudancas-climaticas">Mudanças Climáticas</a>
+            <a href="./../pages/pesca-insustentavel.html">Pesca Insustentavél</a>
+            <a href="./../pages/poluicao-maritima.html">Poluição Maritima</a>
+            <a href="#"> Publicar Artigos</a>
+            <a href="./../pages/participantes.html ">Participantes</a>
         </div>
     </header>
 
     <main>
-        <form id="loginForm" action="./../index.html" method="post">
-            <label for="username">Usuário:</label>
-            <input type="text" id="username" name="login" required>
-            <h4 class="campoObrigatorio"> Campo Obrigatório! </h4>
-
-            <label for="password">Senha:</label>
-            <input type="password" id="password" name="password" required>
-            <h4 class="campoObrigatorio"> Campo Obrigatório! </h4>
+        <div class="container-artigos">
+            <h1>Publicar Artigos</h1>
+            <form id="form-artigos">
+                <input type="text" id="title" placeholder="Título" required>
+                <textarea id="content" rows="5" placeholder="Conteúdo" required></textarea>
+                <button type="submit" onclick="publicar()">Publicar Artigo</button>
+            </form>
             
-            <input type="submit" value="Entrar">
-            <p class="login-text">Não tem uma conta? <a href="./cadastrar.html">Cadastre-se aqui</a>.</p>
-        </form>
+            <div id="articles">
+                
+            </div>
+        </div>
     </main>
     
     <footer>
