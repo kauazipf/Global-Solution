@@ -79,7 +79,7 @@ header .menu {
 
 /* Estilos do conteúdo principal */
 main {
-    margin: 8% auto;
+    margin: 0 auto;
     flex: 1;
     padding: 20px;
     width: 90%;
@@ -144,6 +144,82 @@ form {
     margin: 0 0 20px 0;
     font-size: 1vw;
     color: red;
+  }
+
+  .container-mudancas {
+    width: 80%;
+    margin: 5% auto;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .container-mudancas p {
+        font-size: 1.2vw;
+        line-height: 2;
+        margin: 2% auto;
+        text-align: justify;
+        max-width: 90%;
+    }
+
+    .container-mudancas img {
+        max-width: 90%;
+        height: auto;
+        margin: 2% auto;
+    }
+
+    .container-mudancas a {
+        font-size: 1.2vw;
+        margin: 2% auto;
+    }
+    
+  .container-Participantes {
+    width: 80vw;
+    margin: 2% auto;
+    gap: 2vw;
+    padding: 4vw;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .participante {
+    width: 30%;
+    background-color: #fff;
+    padding: 3vw;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .participante img {
+    width: 10vw;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+
+  .participante p {
+    margin-bottom: 0;
+    font-size: 1.3vw;
+  }
+
+  .linkGithub {
+    text-align: center;
+    background-color: #fff;
+    padding: 4vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .linkGithub a {
+    color: #0056b3; 
+    font-size: 1.5vw;
+    transition: color 0.3s;
+  }
+
+  .linkGithub a:hover {
+    color: #0A0081; 
   }
 
 /* Estilos do rodapé */
