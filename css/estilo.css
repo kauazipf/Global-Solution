@@ -1,4 +1,3 @@
-/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +8,6 @@ body {
     min-height: 100vh;
 }
 
-/* Estilos do cabeçalho */
 header {
     background-color: #3d94ce;
     color: #fff;
@@ -77,11 +75,10 @@ header .menu {
     right: 20px;
   }
 
-/* Estilos do conteúdo principal */
 main {
-    margin: 0 auto;
+    margin: 2% auto;
     flex: 1;
-    padding: 20px;
+    padding: 5vh;
     width: 90%;
 }
 
@@ -127,124 +124,147 @@ form {
     background-color: #0056b3;
   }
 
-  .login-text{
-    text-align: right;
-    margin-top: 10px;
+#conteudo-index{
+  max-width: 100%;
+  margin: 2% auto;
+}
+
+#conteudo-index h2{
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+#conteudo-index p{
+  margin: 2% auto;
+  line-height: 1.7;
+  font-size: 1.4vw;
+  max-width: 80%;
+  text-align: justify;
+}
+
+#conteudo-index img{
+  max-width: 32.8%; 
+  height: auto;
+}
+
+.login-text{
+  text-align: right;
+  margin-top: 10px;
+}
+
+.login-text a {
+  color: #3d94ce;
+}
+
+.login-text a:hover {
+  color: #0056b3;
+}
+
+.campoObrigatorio {
+  margin: 0 0 20px 0;
+  font-size: 1vw;
+  color: red;
+}
+
+.container-informacoes {
+  width: 80%;
+  margin: 5% auto;
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
   }
 
-  .login-text a {
-    color: #3d94ce;
+  .container-informacoes p {
+      font-size: 1.2vw;
+      line-height: 2;
+      margin: 2% auto;
+      text-align: justify;
+      max-width: 90%;
   }
 
-  .login-text a:hover {
-    color: #0056b3;
+  .container-informacoes img {
+      max-width: 90%;
+      height: auto;
+      margin: 2% auto;
   }
 
-  .campoObrigatorio {
-    margin: 0 0 20px 0;
-    font-size: 1vw;
-    color: red;
+  .container-informacoes a {
+      font-size: 1.2vw;
+      margin: 2% auto;
   }
 
-  .container-mudancas {
-    width: 80%;
-    margin: 5% auto;
-    border: 2px solid #ccc;
-    padding: 20px;
-    margin-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    }
-
-    .container-mudancas p {
-        font-size: 1.2vw;
-        line-height: 2;
-        margin: 2% auto;
-        text-align: justify;
-        max-width: 90%;
-    }
-
-    .container-mudancas img {
-        max-width: 90%;
-        height: auto;
-        margin: 2% auto;
-    }
-
-    .container-mudancas a {
-        font-size: 1.2vw;
-        margin: 2% auto;
-    }
-
-    .container-artigos {
-        max-width: 800px;
-        margin: 20px auto;
-        padding: 20px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-    
-    .container-artigos h1{
-        text-align: center;
-    }
-
-    .article {
-        margin-bottom: 20px;
-        border-bottom: 1px solid #ccc;
-        padding-bottom: 20px;
-    }
-
-    .article h2 {
-        margin-top: 0;
-    }
-
-    .article p {
-        margin-bottom: 10px;
-    }
-
-    #form-artigos {
-        margin-bottom: 20px;
-    }
-
-    #form-artigos  textarea,
-    #form-artigos  input[type="text"] {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-        border-radius: 5px;
-        border: 1px solid #ccc;
-        resize: vertical;
-    }
-
-    #form-artigos  button {
-        padding: 10px 20px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-    }
-
-    #form-artigos button:hover {
-        background-color: #0056b3;
-    }
-    
-  .container-Participantes {
-    width: 80vw;
-    margin: 2% auto;
-    gap: 2vw;
-    padding: 4vw;
-    display: flex;
-    justify-content: space-between;
+  .container-artigos {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  
+  .container-artigos h1{
+      text-align: center;
   }
 
-  .participante {
-    width: 30%;
-    background-color: #fff;
-    padding: 3vw;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  .article {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 20px;
   }
+
+  .article h2 {
+      margin-top: 0;
+  }
+
+  .article p {
+      margin-bottom: 10px;
+  }
+
+  #form-artigos {
+      margin-bottom: 20px;
+  }
+
+  #form-artigos  textarea,
+  #form-artigos  input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      resize: vertical;
+  }
+
+  #form-artigos  button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  #form-artigos button:hover {
+      background-color: #0056b3;
+  }
+  
+.container-Participantes {
+  width: 80vw;
+  margin: 2% auto;
+  gap: 2vw;
+  padding: 4vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.participante {
+  width: 30%;
+  background-color: #fff;
+  padding: 3vw;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
 
   .participante img {
     width: 10vw;
@@ -257,13 +277,13 @@ form {
     font-size: 1.3vw;
   }
 
-  .linkGithub {
-    text-align: center;
-    background-color: #fff;
-    padding: 4vh;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+.linkGithub {
+  text-align: center;
+  background-color: #fff;
+  padding: 4vh;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
   .linkGithub a {
     color: #0056b3; 
@@ -275,18 +295,17 @@ form {
     color: #0A0081; 
   }
 
-/* Estilos do rodapé */
 footer {
-    background-color: #3d94ce;;
-    color: #fff;
-    padding: 5px;
-    text-align: center;
-    position: relative;
-    bottom: 0;
-    width: 99.3%;
+  background-color: #3d94ce;;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 99.25%;
 }
 
-footer a {
+  footer a {
     color: #fff;
     text-decoration: none;
     margin: 0 2vw;
@@ -308,3 +327,509 @@ footer a {
   footer .linksRodape{
     margin: 10px 0;
   }
+
+  /* Media query para dispositivos com largura de até 450px */
+@media only screen and (max-width: 450px) {
+  header {
+    width: 100%;
+    padding: 5vw;
+  }
+
+  header h1{
+    font-size: 5vw;
+  }
+
+  header .icon {
+    width: 5vw;
+    margin: 1% auto; 
+  }
+
+  header .menu {
+    padding: 3vh;
+  }
+
+  header .menu a {
+    padding: 2vw;
+    font-size: 2.5vw;
+  }
+
+  #conteudo-index{
+    max-width: 100%;
+    margin: 2% auto;
+  }
+  
+  #conteudo-index h2{
+    text-align: center;
+    font-size: 4vw;
+  }
+  
+  #conteudo-index p{
+    line-height: 1.7;
+    font-size: 3vw;
+  }
+  
+  #conteudo-index img{
+    max-width: 70%; 
+    height: auto;
+    margin: 3% 15%;
+  }
+
+  form {
+    width: 70%;
+    margin: 10% auto;
+  }
+
+  form label{
+    font-size: 3vw;
+  }
+
+  input[type="text"], input[type="email"],
+  input[type="password"], input[type="confPassword"] {
+    width: calc(95% - 10px);
+    margin-bottom: 10px;
+    padding: 1.5vh;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .login-text{
+    font-size: 3vw;
+  }
+
+  .login-text a {
+    font-size: 3vw;
+  }
+
+  .campoObrigatorio {
+    font-size: 2vw;
+  }
+
+  .container-informacoes p{
+    font-size: 3vw;
+  }
+
+  .container-informacoes a{
+    font-size: 3vw;
+  }
+
+
+  .container-Participantes {
+    flex-direction: column;
+    padding: 5vh;
+  }
+
+  .participante {
+    width: 60%;
+    margin: 5% auto;
+    margin-bottom: 15px;
+    font-size: 3vw;
+  }
+
+  .participante p{
+    font-size: 3vw;
+  }
+
+  .linkGithub {
+    padding: 5vh;
+  }
+
+  .linkGithub a {
+    font-size: 3vw;
+  }
+
+  footer{
+    width: 100%;
+  }
+
+  footer p{
+    font-size: 3vw;
+  }
+
+  footer img{
+    width: 8vw;
+  }
+}
+
+ /* Media query para dispositivos com largura de até 768px */
+ @media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+    padding: 5vw;
+  }
+
+  header h1{
+    margin: 0 8% 0 0;
+    font-size: 4.5vw;
+  }
+
+  header .icon {
+    width: 4vw;
+    margin: 2% auto; 
+  }
+
+  header .menu {
+    padding: 3vh;
+  }
+
+  header .menu a {
+    padding: 2vw;
+    font-size: 2.5vw;
+  }
+
+  #conteudo-index{
+    max-width: 100%;
+    margin: 2% auto;
+  }
+  
+  #conteudo-index h2{
+    text-align: center;
+    font-size: 3.5vw;
+  }
+  
+  #conteudo-index p{
+    line-height: 1.7;
+    font-size: 2.5vw;
+  }
+  
+  #conteudo-index img{
+    max-width: 70%; 
+    height: auto;
+    margin: 3% 15%;
+  }
+
+  form {
+    width: 70%;
+    margin: 10% auto;
+  }
+
+  form label{
+    font-size: 3vw;
+  }
+
+  input[type="text"], input[type="email"],
+  input[type="password"], input[type="confPassword"] {
+    width: calc(95% - 10px);
+    margin-bottom: 10px;
+    padding: 1.5vh;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  input[type="submit"] {
+    font-size: 2vw;
+  }
+
+  .login-text{
+    font-size: 2.5vw;
+  }
+
+  .login-text a {
+    font-size: 2.5vw;
+  }
+
+  .campoObrigatorio {
+    font-size: 1.7vw;
+  }
+
+  .container-informacoes p{
+    font-size: 2vw;
+  }
+
+  .container-informacoes a{
+    font-size: 2vw;
+  }
+
+
+  .container-Participantes {
+    flex-direction: column;
+    padding: 5vh;
+  }
+
+  .participante {
+    width: 50%;
+    margin: 5% auto;
+    margin-bottom: 15px;
+  }
+
+  .participante p{
+    font-size: 2.5vw;
+  }
+
+  .linkGithub {
+    padding: 5vh;
+  }
+
+  .linkGithub a {
+    font-size: 3vw;
+  }
+
+  footer{
+    width: 100%;
+  }
+
+  footer p{
+    font-size: 2vw;
+  }
+
+  footer img{
+    width: 5vw;
+  }
+}
+
+/* Media query para dispositivos com largura de até 1440px   */
+@media only screen and (min-width: 1440px) {
+  header {
+    padding: 3vw;
+  }
+
+  header h1{
+    font-size: 3vw;
+    margin: 0 8% 0 0;
+  }
+
+  header .icon {
+    width: 3vw;
+    margin: 1% auto; 
+  }
+
+  header .menu {
+    padding: 2vh;
+  }
+
+  header .menu a {
+    padding: 2vw;
+    font-size: 1.5vw;
+  }
+  
+  #conteudo-index h2{
+    font-size: 3vw;
+  }
+  
+  #conteudo-index p{
+    line-height: 1.7;
+    font-size: 2vw;
+  }
+  
+  #conteudo-index img{
+    max-width: 70%; 
+    height: auto;
+    margin: 3% 15%;
+  }
+
+  form {
+    width: 70%;
+    margin: 10% auto;
+  }
+
+  form label{
+    font-size: 1.5vw;
+  }
+
+  input[type="text"], input[type="email"],
+  input[type="password"], input[type="confPassword"] {
+    width: calc(95% - 10px);
+    margin-bottom: 10px;
+    padding: 1.5vh;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  input[type="submit"] {
+    font-size: 1.5vw;
+  }
+
+  .login-text{
+    font-size: 1.5vw;
+  }
+
+  .login-text a {
+    font-size: 1.5vw;
+  }
+
+  .campoObrigatorio {
+    font-size: 1vw;
+  }
+
+  .container-informacoes p{
+    font-size: 1.5vw;
+  }
+
+  .container-informacoes a{
+    font-size: 1.5vw;
+  }
+
+
+  .container-Participantes {
+    flex-direction: row;
+    padding: 5vh;
+  }
+
+  .participante {
+    width: 30%;
+    margin: 5% auto;
+    margin-bottom: 15px;
+  }
+
+  .participante p{
+    font-size: 1.5vw;
+  }
+
+  .linkGithub {
+    padding: 5vh;
+  }
+
+  .linkGithub a {
+    font-size: 2vw;
+  }
+
+  footer{
+    width: 100%;
+  }
+
+  footer p{
+    font-size: 1.5vw;
+  }
+
+  footer img{
+    width: 4vw;
+  }
+}
+
+/* Media query para dispositivos com largura de até 2560px */
+@media only screen and (min-width: 2560px) {
+  header {
+    width: 100%;
+    padding: 2.5vw;
+  }
+
+  header h1{
+    margin-left: 0 8% 0 0;
+    font-size: 3vw;
+  }
+
+  header .icon {
+    width: 3vw;
+  }
+
+  header .menu {
+    padding: 2vh;
+  }
+
+  header .menu a {
+    padding: 2vw;
+    font-size: 1.5vw;
+  }
+
+  #conteudo-index{
+    max-width: 100%;
+    margin: 2% auto;
+  }
+  
+  #conteudo-index h2{
+    text-align: center;
+    font-size: 2vw;
+  }
+  
+  #conteudo-index p{
+    line-height: 1.7;
+    font-size: 1.5vw;
+  }
+  
+  #conteudo-index img{
+    max-width: 100%; 
+    height: auto;
+    margin: 3% 30%;
+  }
+
+  form {
+    width: 70%;
+    margin: 5% auto;
+  }
+
+  form label{
+    font-size: 2vw;
+  }
+
+  input[type="text"], input[type="email"],
+  input[type="password"], input[type="confPassword"] {
+    width: calc(95% - 10px);
+    margin-bottom: 10px;
+    padding: 1.5vh;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  input[type="submit"] {
+    font-size: 1.5vw;
+  }
+
+  .login-text{
+    font-size: 1.5vw;
+  }
+
+  .login-text a {
+    font-size: 1.5vw;
+  }
+
+  .campoObrigatorio {
+    font-size: 1.3vw;
+  }
+
+  .container-informacoes p{
+    font-size: 1.5vw;
+  }
+
+  .container-informacoes a{
+    font-size: 1.5vw;
+  }
+
+
+  .container-Participantes {
+    flex-direction: row;
+    padding: 4vh;
+  }
+
+  .participante {
+    width: 25%;
+    margin: 3% auto;
+    margin-bottom: 15px;
+  }
+
+  .participante p{
+    font-size: 1.5vw;
+  }
+
+  .linkGithub {
+    padding: 5vh;
+  }
+
+  .linkGithub a {
+    font-size: 2vw;
+  }
+
+  .container-artigos{
+    font-size: 1vw;
+  }
+
+  #form-artigos  textarea,
+  #form-artigos  input[type="text"] {
+      font-size: 1.5vw;
+  }
+
+  #form-artigos  button {
+      font-size: 1.5vw;
+  }
+
+  footer{
+    width: 100%;
+  }
+
+  footer p{
+    font-size: 1.5vw;
+  }
+
+  footer img{
+    width: 4vw;
+  }
+}
+
